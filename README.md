@@ -21,6 +21,24 @@
 
 ---
 
+## 下載與執行
+
+### Release 下載
+
+v1.0 的 Release 提供一個壓縮檔 `game_launcher_v1.0.zip`，解壓後包含：
+
+```
+game_launcher_v1.0/
+├── game_launcher.exe     # 啟動器執行檔
+├── TS_On.bat             # 開 Test Signing（管理員）
+├── TS_Off.bat            # 關 Test Signing（管理員）
+└── README.md             # 說明文件
+```
+
+> **注意**：解壓後請**從 `game_launcher.exe` 所在目錄內啟動**，這樣才能讀到同目錄的 `games.json`、`config.json` 與 `img_cache/`。若從別的目錄啟動，游戲清單會是空的。
+
+---
+
 ## 虛擬模式（Test Signing）
 
 本機的 VBS 模式無法使用，因此虛擬分類改為 **Test Signing** 方式：
