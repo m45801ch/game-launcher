@@ -1,0 +1,29 @@
+# 個人資料（遊戲安裝路徑、Steam 連結、私隱遊戲名單）
+games.json
+games_backup_*.json
+
+# 個人設定（包含私隱模式的 密碼雜湊 / 提示）
+config.json
+
+# 圖片快取
+img_cache/
+dist/img_cache/
+
+# 編譯 / 打包產物
+__pycache__/
+*.pyc
+build/
+dist/
+*.exe
+*.bak
+
+# 第三方工具（非本專案維護）
+VBS.cmd
+
+# 暫存測試
+test.py
+test2.py
+s.html
+
+# AI 工作流程目錄
+.agent/
